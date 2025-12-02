@@ -1,0 +1,78 @@
+body{
+    background-color: lightpink;
+}
+
+header{
+    justify-items: center;
+}
+
+.div_header{
+    text-align: center;
+    border: 2px solid;
+    background-color: lightblue;
+    border-radius: 40px;
+    width: 600px;
+}
+
+nav{
+    display: flex;
+    border: 2px solid;
+    margin: 20px;
+}
+
+.h4_nav{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2{
+    text-align: center;
+    padding: 0px;
+}
+
+.titulo_h2{
+    border-bottom: 2px solid;
+    margin: 20px;
+}
+
+.capitulos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1000px;
+    background-color: lightblue;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+main{
+    justify-items: center;
+}
+
+.divs_capitulos{
+    border: 1px solid;
+    padding-left: 15px;
+}
+
+.cap_rd1{
+    border-top-left-radius: 20px;
+    border: 1px solid;
+    padding-left: 15px;
+}
+
+.cap_rd2{
+    border-top-right-radius: 20px;
+    border: 1px solid;
+    padding-left: 15px;
+}
+
+.cap_rd3{
+    border-bottom-left-radius: 20px;
+    border: 1px solid;
+    padding-left: 15px;
+}
+
+.cap_rd4{
+    border-bottom-right-radius: 20px;
+    border: 1px solid;
+    padding-left: 15px;
+}
